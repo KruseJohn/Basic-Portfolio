@@ -1,0 +1,233 @@
+.style {
+    margin-left: 0px;
+    margin-right: 0px;           
+}
+
+.header {
+    text-align: center;
+    background-color: #ffffff;
+    margin-left: 470px; 
+    width: 960px;
+    height: 100px;   
+}
+
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    width: 250px; height: 90px;
+    padding: 7px; 
+    color: #ffffff;
+    float: left;
+    border: 2px solid #cccccc;
+}
+
+.header a:hover {
+    color: red;
+}
+
+.header a:focus {
+    color: #4aaaa5;
+}
+
+.headerright {
+    float: right;
+    font-size: 19px;
+    padding: 40px 5px 0 0;
+}
+
+a {color: #777777;}
+a:link {text-decoration: none;}
+
+.background {
+    background-image: url("../images/rockywall2.png");
+    min-width: 1024px;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    border-top: 5px solid #dddddd;   
+}
+
+.main {
+    float: left;
+    background-color: white;
+    width: 934px;
+    height: 680px;
+    margin-top: 20px;
+    margin-left: 470px;
+    border: 1px solid #dddddd;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.portfolio {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+.container {
+    color: #777777;
+    width: 895px;
+    border-top: 3px solid #dddddd;  
+}
+
+.hangman {
+    float: left;
+    position: relative;
+    text-align: center;
+    color: #dddddd;
+    margin: 30px 30px 0px 0px;
+    box-shadow: 12px 12px 12px grey;
+    display: block;
+    line-height: 0px;
+}
+
+.hangman-label {
+   position: absolute;
+   top: 80%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   background-color: #4aaaa5;
+   font-size: 18px;
+   padding: 19px 66px;
+   cursor: pointer;
+   font-family: Arial, Helvetica, sans-serif;  
+}
+
+.hangman-label:hover {
+    background-color: #cccccc;
+    color: #3a837f;
+    border: 1px solid #666666;
+}
+
+.rpg {
+    float: left;
+    position: relative;
+    text-align: center;
+    color: #dddddd;
+    margin: 30px 150px 0px 10px;
+    box-shadow: 12px 12px 12px grey;
+    display: block;
+    line-height: 0px;
+}
+
+.rpg-label {
+   position: absolute;
+   top: 80%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   background-color: #4aaaa5;
+   font-size: 18px;
+   padding: 19px 60px;
+   cursor: pointer;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.rpg-label:hover {
+    background-color: #cccccc;
+    color: #3a837f;
+    border: 1px solid #666666;
+}
+
+.trivia {
+    float: left;
+    position: relative;
+    text-align: center;
+    color: #dddddd;
+    margin: 30px 30px 0px 0px;
+    box-shadow: 12px 12px 12px grey;
+    display: block;
+    line-height: 0px;
+}
+
+.trivia-label {
+   position: absolute;
+   top: 80%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   background-color: #4aaaa5;
+   font-size: 18px;
+   padding: 19px 57px;
+   cursor: pointer;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.trivia-label:hover {
+    background-color: #cccccc;
+    color: #3a837f;
+    border: 1px solid #666666;
+}
+
+.widget {
+    float: left;
+    position: relative;
+    text-align: center;
+    color: #dddddd;
+    margin: 30px 150px 0px 10px;
+    box-shadow: 12px 12px 12px grey;
+    display: block;
+    line-height: 0px;
+}
+
+.widget-label {
+   position: absolute;
+   top: 80%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   background-color: #4aaaa5;
+   font-size: 18px;
+   padding: 19px 77px;
+   cursor: pointer;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.widget-label:hover {
+    background-color: #cccccc;
+    color: #3a837f;
+    border: 1px solid #666666;
+}
+
+.rps {
+    float: left;
+    position: relative;
+    text-align: center;
+    color: #dddddd;
+    margin: 30px 20px 0px 0px;
+    box-shadow: 12px 12px 12px grey;
+    display: block;
+    line-height: 0px;
+}
+
+.rps-label {
+   position: absolute;
+   top: 80%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   background-color: #4aaaa5;
+   font-size: 18px;
+   padding: 19px 22px;
+   cursor: pointer;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.rps-label:hover {
+    background-color: #cccccc;
+    color: #3a837f;
+    border: 1px solid #666666;
+}
+
+.footer {
+    clear: both; 
+    width: 100%;
+    height: 70px;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    position: absolute;
+    bottom: 0;
+}

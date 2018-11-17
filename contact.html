@@ -1,34 +1,56 @@
-<!DOCtype <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en-us">
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
     <title>Contact</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/styleC.css">
 </head>
 
-<body>
+<body style="margin-left: 0px;
+             margin-right: 0px;">
+
     <div class="header">
-        <h1>John Kruse</h1>
-        <a href="http://github.com">About</a>
-        <a href="http://github.com">Portfolio</a>
-        <a href="#">Contact</a>
+        <div class="name">
+            <h1>John Kruse</h1>
+        </div>
+
+        <div class="headerright">
+            <a href="#">About</a><a>  |  </a> 
+            <a href="http://github.com">Portfolio</a><a>  |  </a>
+            <a href="http://github.com">Contact</a>
+        </div>
+    </div> 
+
+    <div class="background">
+                
+        <div class="container">
+            <div class="contact">
+                <h1>Contact</h1>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <form action="/action_page.php">
+                        <label for="name">Name</label>
+                        <input type="text" id="name">
+                        <label for="email">Email</label>
+                        <input type="text" id="email">
+                        <label for="message">Message</label>
+                        <input type="text3" id="message">
+                    </form>
+                </div>
+            </div>
+                
+                <secion id="submit"> 
+                    <input type="submit" value="Submit">
+                </section>    
+
+            </div>
+        </div>
     </div>
+    
+    <div class="footer"></div>
 
-    <div class="Main Section">
-            <h1>Contact</h1>
-
-            <ul style="list-style-type:none">
-                <li>Name</li>
-                <li>Email</li>
-                <li>Message</li>
-            </ul>
-
-            <h3>Submit</h3>
-
-    </div>
-        
 </body>
 </html>
