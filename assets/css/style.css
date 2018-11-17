@@ -61,7 +61,7 @@ a:link {text-decoration: none;}
 .about {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 #image {
@@ -75,7 +75,11 @@ a:link {text-decoration: none;}
     color: #777777;
     width: 905px;
     line-height: 25px;
-    border-top: 3px solid #dddddd;   
+    border-top: 3px solid #dddddd;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 2px;
+       
 }
 
 .footer {
